@@ -1,0 +1,19 @@
+.one{
+  background-color: rgb(221, 122, 122);
+}
+.one_heading{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.one_subheading{
+  color: blue;
+}
+
+.two{
+  background-color: rgb(135, 192, 135);
+}
+.two_heading{
+ color:blue;
+}
+.two_para{
+  color:rgb(196, 209, 104)
+}

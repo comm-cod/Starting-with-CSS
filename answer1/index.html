@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .internal {
+        color: blueviolet;
+      }
+
+      .inline-internal {
+        color: aquamarine;
+      }
+
+      .internal-external {
+        color: rgb(177, 218, 112);
+      }
+
+      inline-internal-external{
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- adding inline color to the div -->
+    <div style="color: red">Inline style</div>
+
+    <!-- adding internal style to the div in the html file -->
+    <div class="internal">Internal style</div>
+
+    <!-- adding style to the div through linking to the css file named style.css-->
+    <div class="external">External style</div>
+
+    <div class="inline-internal" style="color: coral;">inline-internal</div>
+
+    <div class="internal-external">internal-external</div>
+
+    <div class="inline-external" style="color: darkred;">inline-external</div>
+
+    <div class="inline-internal-external internal" style="color: blue">
+      inline-internal-external
+    </div>
+
+  </body>
+</html>

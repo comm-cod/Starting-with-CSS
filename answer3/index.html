@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form action="#">
+      <label for="firstName">First Name:
+        <input type="text" name="firstName" id="firstName" placeholder="Anthony" minlength="3" maxlength="30" required>
+      </label>
+      <br>
+      <label for="lastName">Last Name:
+        <input type="text" name="lastName" id="lastName" placeholder="Gonsalves" minlength="3" maxlength="25" required>
+      </label>
+      <br>
+      <label for="email">Email:
+        <input type="email" name="email" id="email" placeholder="anthony@gmail.com" minlength="3" required>
+      </label>
+      <br>
+      <label for="">Gender:
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="others" value="others">
+        <label for="others">Others</label>
+      </label>
+      <br>
+      <button type="submit">Submit Form</button>
+
+    </form>
+  </body>
+</html>

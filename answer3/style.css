@@ -1,0 +1,13 @@
+#firstName{
+  background-color:rgb(216, 120, 120)
+}
+#lastName{
+  background-color: green;
+}
+#email{
+  background-color: blue;
+}
+button{
+  opacity: 50%;
+  background-color:rgb(205, 111, 181);
+}

@@ -1,0 +1,15 @@
+.external {
+  color :lawngreen;
+}
+
+.internal-external{
+  color:darkgoldenrod;
+}
+
+.inline-external{
+  color:cornflowerblue;
+}
+
+.inline-internal-external{
+  color:chartreuse;
+}
